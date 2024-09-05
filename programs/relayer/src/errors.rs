@@ -40,4 +40,7 @@ pub enum RelayError {
 
     #[msg("Invalid tx identifier")]
     InvalidTxId,
+
+    #[msg("Invalid block hash")]
+    InvalidBlockHash,
 }
