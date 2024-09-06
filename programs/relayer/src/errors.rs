@@ -43,4 +43,19 @@ pub enum RelayError {
 
     #[msg("Invalid block hash")]
     InvalidBlockHash,
+
+    #[msg("Division by zero")]
+    DivisionByZero,
+
+    #[msg("Arithmetic error")]
+    ArithmeticError,
+
+    #[msg("Invalid counter")]
+    InvalidCounter,
+
+    #[msg("Invalid chain id")]
+    InvalidChainId,
+
+    #[msg("Fork not found")]
+    ForkNotFound,
 }
